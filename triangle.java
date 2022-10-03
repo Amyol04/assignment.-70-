@@ -17,5 +17,6 @@ public class Triangle {
 		double trangleArea = lenghtSum *sinSum;
 
 		System.out.println("Area of the triangle is:" +trangleArea);
+		
 	} //end of main
 } // end of class
