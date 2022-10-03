@@ -10,12 +10,12 @@ public class Triangle {
 		double sideb =12.6;
 		double angleA = 70.8;
 	
-	double lenghtSum = (sideA * sideb) * 0.5;
-	double sinSum = Math.sin(angleA);
-	
-	// using the formula, calculates the area.
-	double trangleArea = lenghtSum *sinSum;
-	
-	System.out.println("Area of the triangle is:" +trangleArea);
+		double lenghtSum = (sideA * sideb) * 0.5;
+		double sinSum = Math.sin(angleA);
+
+		// using the formula, calculates the area.
+		double trangleArea = lenghtSum *sinSum;
+
+		System.out.println("Area of the triangle is:" +trangleArea);
 	} //end of main
 } // end of class
